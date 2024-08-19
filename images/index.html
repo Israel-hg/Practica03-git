@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+</html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formación Virtual | Bienvenida</title>
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+</body>
+
+<header class="header">
+    <h1>
+      <img src="dummy-header.jpg" alt="Logo">
+    </h1>
+  </header>
+  <nav class="navbar">
+    <a href="#inicio">Inicio</a>
+    <a href="#quienes-somos">Quiénes Somos</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#tarifas">Tarifas</a>
+    <a href="#localizacion">Localización</a>
+  </nav>
+  <section id="quienes-somos" class="content who">
+    <h2 class="title">Quiénes Somos</h2>
+    <p> Somos una institucion especializada en brindar servicios de educacion tecnologica.</p>
+    <p>constituida para ofrecer al público en general una oferta academica variada, pero desde el punto de vista innovador.</p>
+  </section>
+  <section id="servicios" class="content services">
+    <h2 class="title">Servicios</h2>
+    <p>Nuestros servicios son especializados en la enseñanza de temas de tecnologias disruptivas.</p>
+    <ul class="list-services">
+      <li>
+        <figure>
+          <img src="ico1.png" alt="Angular">
+          <figcaption>Angular</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="ico2.png" alt="React">
+          <figcaption>React</figcaption>
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <img src="ico3.png" alt="Vuejs">
+          <figcaption>Vuejs</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </section>
+  <section id="tarifas" class="content tarifas">
+    <article class="contain">
+      <h2 class="title">Tarifas</h2>
+      <p>El costo de nuestros servicios son totalmente gratuitos</p>
+      <p>por lo cual no tienen ningun costo.</p>
+      <a href="#contacto" class="btn">Contáctanos</a>
+    </article>
+  </section>
+  <section id="opiniones" class="content opiniones">
+    <h2 class="title">Opiniones</h2>
+    <div class="opinion-box">
+      <blockquote>
+        <p>"La educacion Virtual esta transformado la educacion tecnica a travez de proporcionar herramientas utiles a cada estudiante."</p>
+        <cite>- Israel Alfaro, Director presidente de la academia</cite>
+      </blockquote>
+    </div>
+    <div class="opinion-box">
+      <blockquote>
+        <p>"La formacion en temas de tecnologia son de vital importacia para desempeñar nuestras provesiones en la era tecnologica"</p>
+        <cite>- Flor Castaneda, directora academica</cite>
+      </blockquote>
+    </div>
+  </section>
+  <section id="localizacion" class="content localization">
+    <h2 class="title">Localización</h2>
+    <p>Nuestra institucion esta ubicada en edificio Fonte, final calle los Naranjos, colonia de los jardines, San Salvador</p>
+    <div id="map"></div>
+    <h3>Formulario de Contacto</h3>
+    <form id="contacto" action="enviar_formulario.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2024 Fazt. Todos los derechos reservados.</p>
+    <nav class="footer-nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#quienes-somos">Quiénes Somos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#tarifas">Tarifas</a>
+      <a href="#localizacion">Localización</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </footer>
